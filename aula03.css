@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.box{
+    margin: 20px;
+    background-color: crimson;
+}
+#espaçador{
+    padding:200px;
+    background: linear-gradient(90deg, rgb(67, 0, 0)0%, rgb(163, 0, 0)50%, rgb(69, 0, 0) 100%) 
+
+}

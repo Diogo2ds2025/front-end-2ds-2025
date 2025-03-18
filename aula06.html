@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+     ul li{
+        list-style-type: none;
+     }
+     ul{
+        display: flex;
+        column-count: 3;
+        column-gap: 20px;
+     }
+     li{
+        opacity: 0;
+        animation: fendeIn 0.5 ease forwards;
+     }
+     @keyframes fandeIn{
+        to {
+            opacity: 4;
+        }
+     }
+     li:nth-child(1){animation-delay: 0.1s;}
+     li:nth-child(2){animation-delay: 0.3s;}
+     li:nth-child(3){animation-delay: 0.5s;}
+   </style>
+
+
+    <title>estilizando lista</title>
+</head>
+<body>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+
+    </ul>
+</body>
+</html>

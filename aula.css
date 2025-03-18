@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .img-padrao{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: 1s all;
+    filter: brightness(20%);
+}
+.caixa{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(52, 7, 59);
+    border-radius: 20px;
+    overflow: hidden;
+}
+#container{
+    background-color:yellowgreen;
+    width: 100%;
+    height:400px;
+
+    display: flex;
+    align-items: center; /*alinha verticalmente*/
+    justify-content: space-evenly; /*alinha orizontalmente*/
+}
+.img-padrao:hover{
+    transform: scale(1.2);
+    filter: brightness(100%);
+
+    
+}
