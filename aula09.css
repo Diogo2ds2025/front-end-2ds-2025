@@ -13,7 +13,7 @@ body{
     background-color: black;
     font-family: 'raleway',sans-serif;
     font-weight: bold;
-
+    
 
 }
 a{
@@ -21,7 +21,7 @@ a{
     display: inline-block;
     padding: 25px 50px;
     margin: 40px 0;
-    color: blueviolet;
+    color: aqua;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
@@ -31,20 +31,35 @@ a{
 
 }
 a:hover{
-    background: blueviolet;
-    color: aqua;
-    box-shadow: 0 0 5px blueviolet,
-                0 0 25px blueviolet,
-                0 0 50px blueviolet,
-                0 0 200px blueviolet;
+    background:  #03e9f4;
+    color: black;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px  #03e9f4,
+                0 0 50px  #03e9f4,
+                0 0 200px  #03e9f4;
     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
 a:nth-child(1){
     filter: hue-rotate(270deg);
-    
+
 }
 a:nth-child(2){
     filter: hue-rotate(110deg);
-    
+
 }
+
+    a span{
+        position: absolute;
+        display: block;
+    }
+    a span:nth-child(1){
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, aqua);
+        animation: animate1 1s linear infinite;
+    }
+
+
 
